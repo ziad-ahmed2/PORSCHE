@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Test Drive</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
+    rel="stylesheet"
+    />
+<link rel="stylesheet" href="test.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
+<body>
+    
+    <header>
+        <nav class="navbar">
+            <h2 class="logo">PORSCHE</h2>
+            <div class="menu">
+                <a href="index.html">Home</a>
+                <a href="models.html">Models</a>
+                <a href="compare.html">Comparison</a>
+                <a href="test.html">test drive</a>
+                <a href="about.html">about us</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="nav-icons">
+                <a href="#"><i class="ri-user-line"></i></a>
+                <a href="#"><i class="ri-search-line"></i></a>
+                <a href=""><i id="toggleBtn" class="ri-toggle-line"></i></a>
+                <a href="login.html" class="login-link"><i class="fa-solid fa-right-to-bracket"></i> Login</a>
+            </div>
+
+        </nav>
+    </header>
+
+        <audio class="audio" autoplay>
+        <source src="engine.opus" type="audio/mpeg">
+    </audio>
+
+<section class="hero">
+<div class="overlay"></div>
+
+<div class="hero-content">
+<h1>Test Drive</h1>
+<h2>Feel the Porsche Difference</h2>
+<p>Get behind the wheel and experience pure performance, precision, and passion.</p>
+
+<div class="hero-steps">
+
+<div class="hero-step">
+<svg width="45" height="45" viewBox="0 0 64 64" fill="none" stroke="#ff7a2f" stroke-width="3">
+<circle cx="32" cy="32" r="20"/>
+<circle cx="32" cy="32" r="5"/>
+<line x1="32" y1="32" x2="50" y2="25"/>
+<line x1="32" y1="32" x2="14" y2="25"/>
+<line x1="32" y1="32" x2="32" y2="50"/>
+</svg>
+<h4>Choose Your Model</h4>
+<p>Pick the Porsche that excites you.</p>
+</div>
+
+<div class="hero-step">
+<svg width="45" height="45" viewBox="0 0 64 64" fill="none" stroke="#ff7a2f" stroke-width="3">
+<rect x="10" y="14" width="44" height="40" rx="6"/>
+<line x1="10" y1="24" x2="54" y2="24"/>
+<line x1="20" y1="10" x2="20" y2="18"/>
+<line x1="44" y1="10" x2="44" y2="18"/>
+</svg>
+<h4>Pick Date & Time</h4>
+<p>Select a convenient time for you.</p>
+</div>
+
+<div class="hero-step">
+<svg width="45" height="45" viewBox="0 0 64 64" fill="none" stroke="#ff7a2f" stroke-width="3">
+<path d="M32 10 L50 18 V30 C50 42 40 50 32 54 C24 50 14 42 14 30 V18 Z"/>
+<polyline points="22,32 30,40 44,26"/>
+</svg>
+<h4>Drive & Experience</h4>
+<p>Feel the power on the road.</p>
+</div>
+
+</div>
+
+</div>
+</section>
+
+<section class="features">
+
+<div class="feature">
+<i class="fa-solid fa-bolt"></i>
+<h4>Unmatched Performance</h4>
+<p>Experience the power and precision.</p>
+</div>
+
+<div class="feature">
+<i class="fa-solid fa-shield-halved"></i>
+<h4>Safety & Confidence</h4>
+<p>Drive with confidence backed by features.</p>
+</div>
+
+<div class="feature">
+<i class="fa-solid fa-heart"></i>
+<h4>Pure Driving Pleasure</h4>
+<p>Feel the connection with the road.</p>
+</div>
+
+</section>
+ 
+<section class="cta">
+<h2>Ready to Feel the Thrill?</h2>
+<p>Your Porsche experience starts here.</p>
+
+<a href="#booking" class="btn">Book Your Test Drive</a>
+
+</section>
+
+<section class="models">
+
+<h2 class="section-title">Our Models</h2>
+<p class="section-subtitle">Choose the Porsche that fits your passion</p>
+
+<div class="models-container">
+
+    <div class="model-card">
+        <h3>911 Carrera</h3>
+        <p>Pure sports performance with iconic design.</p>
+        <span>From $120,000</span>
+    </div>
+
+    <div class="model-card">
+        <h3>Taycan</h3>
+        <p>Electric power with futuristic driving experience.</p>
+        <span>From $110,000</span>
+    </div>
+
+    <div class="model-card">
+        <h3>Macan</h3>
+        <p>Luxury SUV with dynamic handling.</p>
+        <span>From $65,000</span>
+    </div>
+
+    <div class="model-card">
+        <h3>Panamera</h3>
+        <p>Luxury sedan with extreme comfort and speed.</p>
+        <span>From $95,000</span>
+    </div>
+
+</div>
+
+</section>
+
+<section class="section" id="booking">
+
+<div class="card">
+
+<div class="left">
+<h2>Book Your Test Drive</h2>
+<p>Fill out the form and our team will contact you.</p>
+
+<form class="form" id="bookingForm"><input placeholder="Full Name">
+<input placeholder="Email Address">
+<input placeholder="Phone Number">
+
+<select>
+<option>Select Model</option>
+<option>911</option>
+<option>Taycan</option>
+<option>Macan</option>
+<option>Panamera</option>
+</select>
+
+<input type="date">
+
+<select>
+<option>Select Time</option>
+<option>10:00 AM</option>
+<option>12:00 PM</option>
+<option>2:00 PM</option>
+<option>4:00 PM</option>
+<option>6:00 PM</option>
+</select>
+
+<textarea placeholder="Additional Notes"></textarea>
+<button class="btn">Book Now</button>
+</form>
+</div>
+
+<div class="right">
+<video autoplay muted loop>
+<source src="test.mp4" type="video/mp4">
+</video>
+</div>
+
+</div>
+</section>
+
+<footer class="footer">
+
+    <div class="footer-content">
+
+        <div class="footer-logo">
+            <h2>PORSCHE</h2>
+            <p>Driven by Passion. Engineered for Excellence.</p>
+        </div>
+
+        <div class="footer-links">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="models.html">Models</a></li>
+                <li><a href="compare.html">Comparison</a></li>
+                <li><a href="test.html">Brochures</a></li>
+                <li><a href="about.html">about us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+
+    <div class="footer-social">
+        <h3>Follow Us</h3>
+        <div class="icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+    </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2026 Porsche. All Rights Reserved by our team.</p>
+    </div>
+
+</footer>
+
+<script src="test.js"></script>
+
+</body>
+</html>

@@ -380,6 +380,22 @@ header{
 .light-mode .stats p {
     color: #666;
 }
+.light-mode .about-section {
+    background: #f9f9f9;
+}
+
+.light-mode .tit {
+    color: #111;
+}
+
+.light-mode .paragraph1 p,
+.light-mode .paragraph p {
+    color: #555;
+}
+
+.light-mode .about-image img {
+    filter: none;
+}
     .light-mode .features {
         background: #f9f9f9;
     }
